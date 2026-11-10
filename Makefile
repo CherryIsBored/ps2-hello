@@ -1,6 +1,6 @@
 # Makefile estándar de ps2sdk + gsKit.
 EE_BIN  = hello.elf
-EE_OBJS = src/main.o
+EE_OBJS = main.o
 
 GSKIT ?= $(PS2DEV)/gsKit
 EE_INCS += -I$(GSKIT)/include
