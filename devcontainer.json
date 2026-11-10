@@ -1,0 +1,9 @@
+{
+  "name": "PS2 (ps2dev)",
+  "image": "ps2dev/ps2dev:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools", "ms-vscode.makefile-tools"]
+    }
+  }
+}
